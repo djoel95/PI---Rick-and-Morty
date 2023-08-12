@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-router-dom": "^6.15.0",
+    "transition-style": "^0.1.3"
+  }
+}

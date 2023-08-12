@@ -1,0 +1,79 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 0.5rem;
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  text-decoration: none;
+  margin-left: 8rem;
+}
+
+.logo2{
+  width: 100%;
+
+  align-items: start;
+  margin-right: 8rem;
+}
+
+.containerNav {
+  display: grid;
+  display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr 3fr;
+  grid-column-gap: 0%;
+  grid-row-gap: 1%;
+  justify-items: stretch;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(100, 250, 89, 1) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: black;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.SearchBar {
+  display: relative;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: black;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #64fa59;
+  color: red;
+  text-decoration: none;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

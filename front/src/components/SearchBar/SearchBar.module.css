@@ -1,0 +1,44 @@
+input {
+  background-color: black;
+  color: white;
+  border: indianred;
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+}
+
+button {
+  /* Add your styles here */
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #64fa59;
+  color: red;
+}
+
+
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.1rem;
+    justify-content: center;
+    align-items: center;
+    color: darkslategray;
+  }
+  
+  .containerLabel {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    background-color: black;
+  }
+  
+  input {
+    /* Estilos para los campos de entrada */
+  }
+  
+  input.inputError {
+    border: 1px solid red;
+    background-color: black;
+  }
+  
+  .button {
+    margin: 0 auto;
+    margin-top: 3rem;
+    /* Estilos para el botón */
+  }
+  
+  button:hover {
+
+    /* Estilos para el botón cuando se hace hover */
+  }
+  
+  button.buttonError {
+    border: 1px solid red;
+    background-color: #f44336;
+    color: white;
+    background-color: black;
+  }
+  
+  button.buttonSuccess {
+    border: 1px solid green;
+    background-color: #4caf50;
+    color: white;
+  }
+
+
+  video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .icon{
+    position: flex;
+    width: 10rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10rem;
+
+    cursor: pointer;
+    align-items: flex-end;
+  }
+
+  .buttonContainer{
+    display: flex;
+    gap: 5rem;  
+  }
